@@ -32,7 +32,7 @@ export default function Home() {
         <div className="grid gap-8 max-w-4xl mx-auto">
           <ProjectCard
             title="Personal Website"
-            description="You are here right now! Designed and developed a fully responsive portfolio site using Next.js with the App Router, Tailwind CSS, and TypeScript. Implemented scroll-based animations, optimized images with Next.js' native tools, and deployed seamlessly via Vercel."
+            description="You are here right now! Designed and developed a fully responsive portfolio site using Next.js with the App Router, Tailwind CSS, and TypeScript. Implemented scroll-based animations, optimized images with Next.js' native tools, and deployed via Vercel."
             tech={['HTML', 'Tailwind CSS', 'GitHub', 'Vercel', 'Next.js', 'TypeScript']}
             github="https://github.com/kbarker223/Personal-Portfolio-Website"
           />
@@ -45,11 +45,23 @@ export default function Home() {
             github="https://github.com/LucasC212/Message-Decryption-and-TSP-with-Simulated-Annealing"
           />
           <ProjectCard
+            title="Predicting 2025 March Madness Forecasting"
+            description="Developed a solution to Kaggle's March Madness Machine Learning Mania to forecast both mens and womens NCAA tournament game outcomes.
+            Using historical game data, seeding information, strength of schedules, and team statistics. Implemented a goto conversion solution (https://www.kaggle.com/code/kaito510/goto-conversion-winning-solution) in order to convert american betting odds to statistical probabilities for predicting outcomes."
+            tech={['Python', 'Data Analysis', 'Kaggle', 'Pandas', 'Go to Conversion']}
+            link="https://www.kaggle.com/competitions/march-machine-learning-mania-2025/overview"
+            linkLabel="Kaggle Competition"
+            github="https://github.com/kbarker223/2025-March-Madness/tree/main"
+          />
+          <ProjectCard
             title="Predicting NBA stats with Machine Learning"
-            description="A tool that parses job descriptions and compares your resume to generate match scores."
-            tech={['Python', 'Latex', 'Simulated Annealing', 'Markov Chain Monte Carlo']}
-            link="/160B_Final_Project.pdf"
-            github="https://github.com/LucasC212/Message-Decryption-and-TSP-with-Simulated-Annealing"
+            description="Implemented a machine learning model using scikit-learn to predict NBA player rebounds for upcoming games. 
+            Collected and processed real-time season data using NBA API, 
+            engineered features based on recent performance trends and opponent matchups, and trained a Random Forest Regressor to 
+            model player outcomes. Evaluated model accuracy using MAE and tracked results in Excel to explore sports 
+            analytics and discover trends."
+            tech={['Python', 'Machine Learning', 'Linear Regression', 'Random Forest', 'Microsoft Excel']}
+            github=""
           />
         </div>
       </section>

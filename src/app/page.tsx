@@ -12,13 +12,13 @@ export default function Home() {
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex flex-col justify-center items-center px-4">
         <Image
-          src="/kai-headshot.jpg"
-          alt="Kais headshot"
+          src="/kai-headshot.JPG"
+          alt="Kai's headshot"
           width={336}
           height={336}
-          className="rounded-full object-cover mb-6 shadow-md"
+          className="w-84 h-84 rounded-full object-cover mb-6 shadow-md"
           data-aos="zoom-in"
-        />
+        /> 
 
         <h1 className="text-4xl md:text-5xl font-bold text-center" data-aos="fade-up">Kai Barker</h1>
         <p className="mt-4 text-xl text-gray-600 text-center max-w-xl">
@@ -75,6 +75,27 @@ export default function Home() {
         />
       </div>
       </section>
+
+      {/* Honors Image */}
+      <section className="relative my-16">
+      <div className="absolute inset-0 opacity-20">
+        <Image
+          src="/kai-collab.JPG"
+          alt="Kai collaborating with others"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-lg"
+          priority
+        />
+      </div>
+      <div className="relative z-10 text-center py-24">
+        <h2 className="text-3xl font-semibold text-gray-800">Collaboration in Action</h2>
+        <p className="mt-4 text-gray-700 max-w-xl mx-auto">
+          I thrive in environments where ideas are shared, challenged, and built together.
+        </p>
+      </div>
+      </section>
+
 
       {/* About Section */}
       <section id="about" className="py-16 px-4" data-aos="fade-up" data-aos-delay="200">

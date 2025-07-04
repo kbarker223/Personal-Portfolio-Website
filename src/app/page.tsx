@@ -4,6 +4,7 @@ import { FiGithub } from 'react-icons/fi';
 import { FaLinkedinIn } from 'react-icons/fa';
 import CertificationCard from '@/components/CertificationCard';
 
+
 export default function Home() {
   return (
     <Layout>
@@ -75,7 +76,7 @@ export default function Home() {
       <section id="about" className="py-16 px-4" data-aos="fade-up" data-aos-delay="200">
         <h2 className="text-3xl font-semibold text-center mb-8">About Me</h2>
         <p className="max-w-2xl mx-auto text-center text-gray-600">
-          I’m Kai Barker, a fourth year student at University of California, Santa Barbara pursuing a B.S in Statistics and Data Science. 
+          I&rsquom Kai Barker, a fourth year student at University of California, Santa Barbara pursuing a B.S in Statistics and Data Science. 
           I have a passion for working with others, solving complex problems, and building tools that make data more accessible and actionable.
           Whether I am in the classroom, working on a personal project, or collaborating on research, I am always looking for new ways to apply my learning.
           <br></br>

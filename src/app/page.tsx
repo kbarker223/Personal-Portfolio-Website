@@ -31,11 +31,10 @@ export default function Home() {
         <h2 className="text-3xl font-semibold text-center mb-8">Projects</h2>
         <div className="grid gap-8 max-w-4xl mx-auto">
           <ProjectCard
-            title="New Project"
-            description="Interactive dashboard for visualizing public health data across U.S. states."
-            tech={['x', 'y', 'z']}
-            link="https://your-demo-link.com"
-            github="https://github.com/your-repo"
+            title="Personal Website"
+            description="You are here right now! Designed and developed a fully responsive portfolio site using Next.js with the App Router, Tailwind CSS, and TypeScript. Implemented scroll-based animations, optimized images with Next.js' native tools, and deployed seamlessly via Vercel."
+            tech={['HTML', 'Tailwind CSS', 'GitHub', 'Vercel', 'Next.js', 'TypeScript']}
+            github="https://github.com/kbarker223/Personal-Portfolio-Website"
           />
           <ProjectCard
             title="Message Decryption using MCMC and Simulated Annealing"

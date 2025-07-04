@@ -1,103 +1,133 @@
-import Image from "next/image";
+import Layout from '@/components/Layout';
+import ProjectCard from '@/components/ProjectCard';
+import { FiGithub } from 'react-icons/fi';
+import { FaLinkedinIn } from 'react-icons/fa';
+import CertificationCard from '@/components/CertificationCard';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+    <Layout>
+      {/* Hero Section */}
+      <section id="home" className="min-h-screen flex flex-col justify-center items-center px-4">
+        <img
+          src="/kai-headshot.jpg"
+          alt="Kai's headshot"
+          className="w-84 h-84 rounded-full object-cover mb-6 shadow-md"
+          data-aos="zoom-in"
         />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+        <h1 className="text-4xl md:text-5xl font-bold text-center" data-aos="fade-up">Kai Barker</h1>
+        <p className="mt-4 text-xl text-gray-600 text-center max-w-xl">
+          Statistics and Data Science student with a passion for problem solving, collaboration, and connecting with others.
+        </p>
+      </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+      {/* Projects Section */}
+      <section id="projects" className="py-16 px-4 bg-gray-100" data-aos="fade-up" data-aos-delay="100">
+        <h2 className="text-3xl font-semibold text-center mb-8">Projects</h2>
+        <div className="grid gap-8 max-w-4xl mx-auto">
+          <ProjectCard
+            title="New Project"
+            description="Interactive dashboard for visualizing public health data across U.S. states."
+            tech={['x', 'y', 'z']}
+            link="https://your-demo-link.com"
+            github="https://github.com/your-repo"
+          />
+          <ProjectCard
+            title="Message Decryption using MCMC and Simulated Annealing"
+            description="A tool that parses job descriptions and compares your resume to generate match scores."
+            tech={['Python', 'Latex', 'Simulated Annealing', 'Markov Chain Monte Carlo']}
+            link="/160B_Final_Project.pdf"
+            linkLabel="View PDF"
+            github="https://github.com/LucasC212/Message-Decryption-and-TSP-with-Simulated-Annealing"
+          />
+          <ProjectCard
+            title="Predicting NBA stats with Machine Learning"
+            description="A tool that parses job descriptions and compares your resume to generate match scores."
+            tech={['Python', 'Latex', 'Simulated Annealing', 'Markov Chain Monte Carlo']}
+            link="/160B_Final_Project.pdf"
+            github="https://github.com/LucasC212/Message-Decryption-and-TSP-with-Simulated-Annealing"
+          />
+        </div>
+      </section>
+
+      {/* Certifications Section */}
+      <section id="certifications" className="py-16 px-4 bg-white" data-aos="fade-up">
+      <h2 className="text-3xl font-semibold text-center mb-8">Certifications</h2>
+      <div className="border border-gray-300 rounded-md p-5 bg-white">
+        <CertificationCard
+          title="Programming in Python - Meta"
+          issuer="Coursera · Meta"
+          date="July 2025"
+          description="A hands-on 4-task job simulation focused on applying quantitative models to financial data, analyzing interest rate risk, and presenting data-driven insights to support trading decisions."
+          link="/JPM QA Certificate.pdf"
+        />
+        <CertificationCard
+          title="JP Morgan Chase Quantitative Analysis "
+          issuer="Forage · JP Morgan Chase"
+          date="April 2025"
+          description="A hands-on 4-task job simulation focused on applying quantitative models to financial data, analyzing interest rate risk, and presenting data-driven insights to support trading decisions."
+          link="/JPM QA Certificate.pdf"
+        />
+      </div>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="py-16 px-4" data-aos="fade-up" data-aos-delay="200">
+        <h2 className="text-3xl font-semibold text-center mb-8">About Me</h2>
+        <p className="max-w-2xl mx-auto text-center text-gray-600">
+          I’m Kai Barker, a fourth year student at University of California, Santa Barbara pursuing a B.S in Statistics and Data Science. 
+          I have a passion for working with others, solving complex problems, and building tools that make data more accessible and actionable.
+          Whether I am in the classroom, working on a personal project, or collaborating on research, I am always looking for new ways to apply my learning.
+          <br></br>
+          <br></br>
+          I enjoy working on projects that blend data analytics, design, and user-focused thinking. I am esepcially interested in roles that involve teamwork and communication.
+          Outside of data science, I have worked in multiple sales jobs that have further enhanced my people skills and shown me that I have a passion for helping others and understanding
+          their needs. My leadership experience as a store manager has improved my time management skills, and allowed me to learn how to coordinate efforts with a team to 
+          meet store goals and customer needs.
+          <br></br>
+          <br></br>
+          In my free time, you can catch me climbing, hiking, or at the pickleball or basketball courts. I am seeking internship opportunities, jobs, or research positions that
+          will not only further my technical skills, but that will also challenge me to learn and explore new ideas. Feel free to check out my resume below, and don't hesitate to reach out, I would love to connect!  
+          
+        </p>
+        <p className="text-center mt-6">
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="/Jan25ResumePDF.pdf"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-blue-600 underline hover:text-blue-800 transition"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
+            My Resume (PDF)
+          </a>
+        </p>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="py-16 px-4 bg-gray-100 text-center" data-aos="fade-up">
+        <h2 className="text-3xl font-semibold mb-6">Get in Touch</h2>
+        <p className="text-gray-600 mb-4">Email: kaiandreasbarker@gmail.com</p>
+        <div className="flex justify-center gap-6 mt-4">
+          <a
+            href="https://github.com/kbarker223"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-14 h-14 flex items-center justify-center rounded-full bg-gray-200 text-gray-800 hover:bg-gray-300 transition"
+          >
+            <FiGithub size={32} />
           </a>
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://www.linkedin.com/in/kaiabarker/"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-14 h-14 flex items-center justify-center rounded-full bg-gray-200 text-gray-800 hover:bg-gray-300 transition"
           >
-            Read our docs
+            <FaLinkedinIn size={32} />
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+    </Layout>
   );
 }
+
+
+

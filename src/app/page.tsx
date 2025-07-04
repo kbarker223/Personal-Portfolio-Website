@@ -3,6 +3,7 @@ import ProjectCard from '@/components/ProjectCard';
 import { FiGithub } from 'react-icons/fi';
 import { FaLinkedinIn } from 'react-icons/fa';
 import CertificationCard from '@/components/CertificationCard';
+import Image from 'next/image';
 
 
 export default function Home() {
@@ -10,12 +11,15 @@ export default function Home() {
     <Layout>
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex flex-col justify-center items-center px-4">
-        <img
+        <Image
           src="/kai-headshot.jpg"
           alt="Kai's headshot"
-          className="w-84 h-84 rounded-full object-cover mb-6 shadow-md"
+          width={336}
+          height={336}
+          className="rounded-full object-cover mb-6 shadow-md"
           data-aos="zoom-in"
         />
+
         <h1 className="text-4xl md:text-5xl font-bold text-center" data-aos="fade-up">Kai Barker</h1>
         <p className="mt-4 text-xl text-gray-600 text-center max-w-xl">
           Statistics and Data Science student with a passion for problem solving, collaboration, and connecting with others.

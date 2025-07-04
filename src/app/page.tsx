@@ -80,7 +80,7 @@ export default function Home() {
       <section className="relative my-16">
       <div className="absolute inset-0 opacity-20">
         <Image
-          src="/kai-collab.JPG"
+          src="/kai-collab.jpg"
           alt="Kai collaborating with others"
           layout="fill"
           objectFit="cover"

@@ -38,7 +38,7 @@ export default function Home() {
           />
           <ProjectCard
             title="Message Decryption using MCMC and Simulated Annealing"
-            description="Using a Metropolis-Hastings message decryption algorithm, we researched and documented the algorithms functionality and underlying mechanics, and optimized the decoder using simulated annealing. Borrowing simulated annealing from the Traveling Salesman Problem, a similar optimization problem, we updated the Metropolis-Hastings algprithm and discussed its impact on message decryption."
+            description="Using a Metropolis-Hastings message decryption algorithm, we researched and documented the algorithms functionality and underlying mechanics, and optimized the decoder using simulated annealing. Borrowing simulated annealing from the Traveling Salesman Problem, a similar optimization problem, we updated the Metropolis-Hastings algorithm and discussed its impact on message decryption."
             tech={['Python', 'Latex', 'Simulated Annealing', 'Markov Chain Monte Carlo']}
             link="/160B_Final_Project.pdf"
             linkLabel="View PDF"

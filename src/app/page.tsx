@@ -13,7 +13,7 @@ export default function Home() {
       <section id="home" className="min-h-screen flex flex-col justify-center items-center px-4">
         <Image
           src="/kai-headshot.jpg"
-          alt="Kai's headshot"
+          alt="Kais headshot"
           width={336}
           height={336}
           className="rounded-full object-cover mb-6 shadow-md"
@@ -80,7 +80,7 @@ export default function Home() {
       <section id="about" className="py-16 px-4" data-aos="fade-up" data-aos-delay="200">
         <h2 className="text-3xl font-semibold text-center mb-8">About Me</h2>
         <p className="max-w-2xl mx-auto text-center text-gray-600">
-          I&rsquom Kai Barker, a fourth year student at University of California, Santa Barbara pursuing a B.S in Statistics and Data Science. 
+          I&apos;m Kai Barker, a fourth year student at University of California, Santa Barbara pursuing a B.S in Statistics and Data Science. 
           I have a passion for working with others, solving complex problems, and building tools that make data more accessible and actionable.
           Whether I am in the classroom, working on a personal project, or collaborating on research, I am always looking for new ways to apply my learning.
           <br></br>
@@ -92,7 +92,7 @@ export default function Home() {
           <br></br>
           <br></br>
           In my free time, you can catch me climbing, hiking, or at the pickleball or basketball courts. I am seeking internship opportunities, jobs, or research positions that
-          will not only further my technical skills, but that will also challenge me to learn and explore new ideas. Feel free to check out my resume below, and don't hesitate to reach out, I would love to connect!  
+          will not only further my technical skills, but that will also challenge me to learn and explore new ideas. Feel free to check out my resume below, and don&apos;t hesitate to reach out, I would love to connect!  
           
         </p>
         <p className="text-center mt-6">

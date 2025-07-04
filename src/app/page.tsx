@@ -61,7 +61,7 @@ export default function Home() {
             model player outcomes. Evaluated model accuracy using MAE and tracked results in Excel to explore sports 
             analytics and discover trends."
             tech={['Python', 'Machine Learning', 'Linear Regression', 'Random Forest', 'Microsoft Excel']}
-            github=""
+            github="https://github.com/kbarker223/Predicting-NBA-Stats-with-Machine-Learning"
           />
         </div>
       </section>

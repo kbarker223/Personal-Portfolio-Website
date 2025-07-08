@@ -45,7 +45,7 @@ export default function Home() {
             github="https://github.com/LucasC212/Message-Decryption-and-TSP-with-Simulated-Annealing"
           />
           <ProjectCard
-            title="Predicting 2025 March Madness Forecasting"
+            title="2025 March Madness Forecasting"
             description="Developed a solution to Kaggle's March Madness Machine Learning Mania to forecast both mens and womens NCAA tournament game outcomes.
             Using historical game data, seeding information, strength of schedules, and team statistics. Implemented a goto conversion solution (https://www.kaggle.com/code/kaito510/goto-conversion-winning-solution) in order to convert american betting odds to statistical probabilities for predicting outcomes."
             tech={['Python', 'Data Analysis', 'Kaggle', 'Pandas', 'Go to Conversion']}
@@ -71,11 +71,11 @@ export default function Home() {
       <h2 className="text-3xl font-semibold text-center mb-8">Certifications</h2>
       <div className="border border-gray-300 rounded-md p-5 bg-white">
         <CertificationCard
-          title="Programming in Python - Meta"
-          issuer="Coursera · Meta"
+          title="Google Data Analytics"
+          issuer="Coursera · Google"
           date="July 2025"
-          description="A hands-on 4-task job simulation focused on applying quantitative models to financial data, analyzing interest rate risk, and presenting data-driven insights to support trading decisions."
-          link="/JPM QA Certificate.pdf"
+          description="In progess"
+          link=""
         />
         <CertificationCard
           title="JP Morgan Chase Quantitative Analysis "

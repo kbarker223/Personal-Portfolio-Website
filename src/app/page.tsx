@@ -81,8 +81,9 @@ export default function Home() {
           title="Kaggle Learn"
           issuer="Kaggle"
           date="July 2025"
-          description="Completed multiple hands on courses to refine skills and support personal projects. Focused on practical and relevant skills like Pandas and Machine Learning."
+          description="Completed multiple hands on courses to refine skills and support personal projects. Focused on practical and relevant skills - Pandas"
           link="/pandas.png"
+          linkLabel="Pandas Certificate"
         />
         <CertificationCard
           title="JP Morgan Chase Quantitative Analysis "

@@ -4,6 +4,7 @@ type CertificationCardProps = {
   description?: string;
   date?: string;
   link?: string;
+  linkLabel?: string;
 };
 
 export default function CertificationCard({
@@ -12,6 +13,7 @@ export default function CertificationCard({
   description,
   date,
   link,
+  linkLabel
 }: CertificationCardProps) {
   return (
     <div className="bg-blue-50 border border-blue-200 rounded-lg p-5 text-gray-800">
@@ -25,7 +27,7 @@ export default function CertificationCard({
           rel="noopener noreferrer"
           className="mt-3 inline-block text-blue-600 underline hover:text-blue-800 transition"
         >
-          View Certificate
+          {linkLabel || "View Certificate"}
         </a>
       )}
     </div>

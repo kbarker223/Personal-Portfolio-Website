@@ -78,6 +78,13 @@ export default function Home() {
           link=""
         />
         <CertificationCard
+          title="Kaggle Learn"
+          issuer="Kaggle"
+          date="July 2025"
+          description="Completed multiple hands on courses to refine skills and support personal projects. Focused on practical and relevant skills like Pandas and Machine Learning."
+          link="/pandas.png"
+        />
+        <CertificationCard
           title="JP Morgan Chase Quantitative Analysis "
           issuer="Forage · JP Morgan Chase"
           date="April 2025"

@@ -81,7 +81,7 @@ export default function Home() {
           title="Kaggle Learn"
           issuer="Kaggle"
           date="July 2025"
-          description="Completed multiple hands on courses to refine skills and support personal projects. Focused on practical and relevant skills - Pandas"
+          description="Completed multiple hands on courses to refine skills and support personal projects. Focused on practical and relevant skills - Pandas, Machine Learning, "
           link="/pandas.png"
           linkLabel="Pandas Certificate"
         />

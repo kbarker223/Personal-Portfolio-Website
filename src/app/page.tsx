@@ -80,9 +80,12 @@ export default function Home() {
           title="Kaggle Learn"
           issuer="Kaggle"
           date="July 2025"
-          description="Completed multiple hands on courses to refine skills and support personal projects. Focused on practical and relevant skills - Pandas, Machine Learning, "
+          description="Completed multiple hands-on Kaggle courses to refine data skills and support personal projects. 
+          Developed practical expertise in Machine Learning, Pandas, SQL, and Data Visualization. 
+          Enhanced capabilities in model building with Pipelines, XGBoost, and Cross-Validation, as well as data visualization through Seaborn. 
+          Strengthened cloud proficiency with Google Cloud, and BigQuery, and practiced writing efficient SQL queries with real world applications."
           certLinks={[
-            { label: "Machine Learning", url: "/ml-cert-kaggle"},
+            { label: "Machine Learning", url: "/ml-cert-kaggle.png"},
             { label: "SQL", url: "/sql-cert-kaggle.png"},
             { label: "Pandas", url: "/pandas.png"},
             { label: "Data Visualization (Seaborn)", url: "/datavis-cert-kaggle.png"}

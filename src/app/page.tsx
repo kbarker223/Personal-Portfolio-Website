@@ -75,22 +75,27 @@ export default function Home() {
           issuer="Coursera · Google"
           date="July 2025"
           description="In progess"
-          link=""
         />
         <CertificationCard
           title="Kaggle Learn"
           issuer="Kaggle"
           date="July 2025"
           description="Completed multiple hands on courses to refine skills and support personal projects. Focused on practical and relevant skills - Pandas, Machine Learning, "
-          link="/pandas.png"
-          linkLabel="Pandas Certificate"
+          certLinks={[
+            { label: "Machine Learning", url: "/ml-cert-kaggle"},
+            { label: "SQL", url: "/sql-cert-kaggle.png"},
+            { label: "Pandas", url: "/pandas.png"},
+            { label: "Data Visualization (Seaborn)", url: "/datavis-cert-kaggle.png"}
+          ]}
         />
         <CertificationCard
           title="JP Morgan Chase Quantitative Analysis "
           issuer="Forage · JP Morgan Chase"
           date="April 2025"
           description="A hands-on 4-task job simulation focused on applying quantitative models to financial data, analyzing interest rate risk, and presenting data-driven insights to support trading decisions."
-          link="/JPM QA Certificate.pdf"
+          certLinks={[
+            { label: "View Certificate", url: "/JPM QA Certificate.pdf"},
+          ]}
         />
       </div>
       </section>

@@ -109,6 +109,11 @@ export default function Home() {
           priority
         />
       </div>
+        <div className="relative z-10 text-center py-24">
+        <h2 className="text-3xl font-semibold text-gray-800"></h2>
+        <p className="mt-4 text-gray-700 max-w-xl mx-auto">
+        </p>
+      </div>
       </section>
 
 

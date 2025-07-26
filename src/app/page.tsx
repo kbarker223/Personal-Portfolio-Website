@@ -109,12 +109,6 @@ export default function Home() {
           priority
         />
       </div>
-      <div className="relative z-10 text-center py-24">
-        <h2 className="text-3xl font-semibold text-gray-800">Collaboration in Action</h2>
-        <p className="mt-4 text-gray-700 max-w-xl mx-auto">
-          I thrive in environments where ideas are shared, challenged, and built together.
-        </p>
-      </div>
       </section>
 
 

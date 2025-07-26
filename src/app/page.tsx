@@ -71,12 +71,6 @@ export default function Home() {
       <h2 className="text-3xl font-semibold text-center mb-8">Certifications</h2>
       <div className="border border-gray-300 rounded-md p-5 bg-white">
         <CertificationCard
-          title="Google Data Analytics"
-          issuer="Coursera · Google"
-          date="July 2025"
-          description="In progess"
-        />
-        <CertificationCard
           title="Kaggle Learn"
           issuer="Kaggle"
           date="July 2025"
@@ -145,7 +139,7 @@ export default function Home() {
         </p>
         <p className="text-center mt-6">
           <a
-            href="/Jan25ResumePDF.pdf"
+            href="/Barker_Resume_July25.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 underline hover:text-blue-800 transition"

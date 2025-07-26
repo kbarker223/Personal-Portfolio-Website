@@ -15,7 +15,7 @@ export default function Layout({ children }: LayoutProps) {
       <main className="flex-grow px-6 py-8">{children}</main>
 
       <footer className="w-full px-6 py-4 border-t text-sm text-center text-gray-500">
-        © {new Date().getFullYear()} Kai Barker. All rights reserved.
+        © {new Date().getFullYear()} Kai Barker.
       </footer>
     </div>
   );

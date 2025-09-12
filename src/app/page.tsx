@@ -6,6 +6,7 @@ import CertificationCard from '@/components/CertificationCard';
 import Image from 'next/image';
 import { useState } from 'react';
 
+"use client";
 
 export default function Home() {
   const [showAll, setShowAll] = useState(false);

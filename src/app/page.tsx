@@ -9,7 +9,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <Layout>
-      {/* Hero Section */}
+      {/* Headshot Section */}
       <section id="home" className="min-h-screen flex flex-col justify-center items-center px-4">
         <Image
           src="/kai-headshot.JPG"
@@ -63,6 +63,16 @@ export default function Home() {
             tech={['Python', 'Machine Learning', 'Linear Regression', 'Random Forest', 'Microsoft Excel']}
             github="https://github.com/kbarker223/Predicting-NBA-Stats-with-Machine-Learning"
           />
+          <ProjectCard
+            title="Physics Based Billiard Simulation"
+            description="This was a small project to work with numpy, matplotlib, and explore a phsyics based simultion in Python. 
+            Using Newtwons Second Law of Motion, and the balls position, speed, and velocity I was able to accurately 
+            simulate the billiard balls on the table. The initial vectors x_r, x_b, v_r, v_b could be updated to change 
+            the balls inital positions and velocities, or more balls could be added to the simulation."
+            tech={['Python', 'matplotlib', 'numpy', 'Simulation', 'Physics', 'Vectors']}
+            linkLabel="Live Demo"
+            github="https://github.com/kbarker223/Physics-Based-Billiards-Sim"
+          />
         </div>
       </section>
 
@@ -75,14 +85,15 @@ export default function Home() {
           issuer="Kaggle"
           date="July 2025"
           description="Completed multiple hands-on Kaggle courses to refine data skills and support personal projects. 
-          Developed practical expertise in Machine Learning, Pandas, SQL, and Data Visualization. 
+          Developed practical expertise in Machine Learning, Pandas, SQL, and Data Visualization, Deep Learning. 
           Enhanced capabilities in model building with Pipelines, XGBoost, and Cross-Validation, as well as data visualization through Seaborn. 
           Strengthened cloud proficiency with Google Cloud, and BigQuery, and practiced writing efficient SQL queries with real world applications."
           certLinks={[
             { label: "Machine Learning", url: "/ml-cert-kaggle.png"},
             { label: "SQL", url: "/sql-cert-kaggle.png"},
             { label: "Pandas", url: "/pandas.png"},
-            { label: "Data Visualization (Seaborn)", url: "/datavis-cert-kaggle.png"}
+            { label: "Data Visualization (Seaborn)", url: "/datavis-cert-kaggle.png"},
+            { label: "Deep Learning", url: "/Kai Barker123 - Intro to Deep Learning.png"}
           ]}
         />
         <CertificationCard

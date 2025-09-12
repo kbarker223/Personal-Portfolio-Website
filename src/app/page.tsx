@@ -4,9 +4,11 @@ import { FiGithub } from 'react-icons/fi';
 import { FaLinkedinIn } from 'react-icons/fa';
 import CertificationCard from '@/components/CertificationCard';
 import Image from 'next/image';
+import { useState } from 'react';
 
 
 export default function Home() {
+  const [showAll, setShowAll] = useState(false);
   return (
     <Layout>
       {/* Headshot Section */}
@@ -53,27 +55,43 @@ export default function Home() {
             linkLabel="Kaggle Competition"
             github="https://github.com/kbarker223/2025-March-Madness/tree/main"
           />
-          <ProjectCard
-            title="Predicting NBA stats with Machine Learning"
-            description="Implemented a machine learning model using scikit-learn to predict NBA player rebounds for upcoming games. 
-            Collected and processed real-time season data using NBA API, 
-            engineered features based on recent performance trends and opponent matchups, and trained a Random Forest Regressor to 
-            model player outcomes. Evaluated model accuracy using MAE and tracked results in Excel to explore sports 
-            analytics and discover trends."
-            tech={['Python', 'Machine Learning', 'Linear Regression', 'Random Forest', 'Microsoft Excel']}
-            github="https://github.com/kbarker223/Predicting-NBA-Stats-with-Machine-Learning"
-          />
-          <ProjectCard
-            title="Physics Based Billiard Simulation"
-            description="This was a small project to work with numpy, matplotlib, and explore a phsyics based simultion in Python. 
-            Using Newtwons Second Law of Motion, and the balls position, speed, and velocity I was able to accurately 
-            simulate the billiard balls on the table. The initial vectors x_r, x_b, v_r, v_b could be updated to change 
-            the balls inital positions and velocities, or more balls could be added to the simulation."
-            tech={['Python', 'matplotlib', 'numpy', 'Simulation', 'Physics', 'Vectors']}
-            link="https://raw.githubusercontent.com/kbarker223/Physics-Based-Billiards-Sim/refs/heads/main/simulation.gif"
-            linkLabel="Live Demo"
-            github="https://github.com/kbarker223/Physics-Based-Billiards-Sim"
-          />
+          
+          {/* Toggleable Projects */}
+          {showAll && (
+            <>
+              <ProjectCard
+                title="Predicting NBA stats with Machine Learning"
+                description="Implemented a machine learning model using scikit-learn to predict NBA player rebounds for upcoming games. 
+                Collected and processed real-time season data using NBA API, 
+                engineered features based on recent performance trends and opponent matchups, and trained a Random Forest Regressor to 
+                model player outcomes. Evaluated model accuracy using MAE and tracked results in Excel to explore sports 
+                analytics and discover trends."
+                tech={['Python', 'Machine Learning', 'Linear Regression', 'Random Forest', 'Microsoft Excel']}
+                github="https://github.com/kbarker223/Predicting-NBA-Stats-with-Machine-Learning"
+              />
+              <ProjectCard
+                title="Physics Based Billiard Simulation"
+                description="This was a small project to work with numpy, matplotlib, and explore a phsyics based simultion in Python. 
+                Using Newtwons Second Law of Motion, and the balls position, speed, and velocity I was able to accurately 
+                simulate the billiard balls on the table. The initial vectors x_r, x_b, v_r, v_b could be updated to change 
+                the balls inital positions and velocities, or more balls could be added to the simulation."
+                tech={['Python', 'matplotlib', 'numpy', 'Simulation', 'Physics', 'Vectors']}
+                link="https://raw.githubusercontent.com/kbarker223/Physics-Based-Billiards-Sim/refs/heads/main/simulation.gif"
+                linkLabel="Live Demo"
+                github="https://github.com/kbarker223/Physics-Based-Billiards-Sim"
+              />
+            </>
+          )}
+        </div>
+
+          {/* Read More Button */}
+        <div className="text-center mt-8">
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+          >
+            {showAll ? 'Show Less' : 'Read More'}
+          </button>
         </div>
       </section>
 

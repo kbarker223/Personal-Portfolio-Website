@@ -70,6 +70,7 @@ export default function Home() {
             simulate the billiard balls on the table. The initial vectors x_r, x_b, v_r, v_b could be updated to change 
             the balls inital positions and velocities, or more balls could be added to the simulation."
             tech={['Python', 'matplotlib', 'numpy', 'Simulation', 'Physics', 'Vectors']}
+            link="https://raw.githubusercontent.com/kbarker223/Physics-Based-Billiards-Sim/refs/heads/main/simulation.gif"
             linkLabel="Live Demo"
             github="https://github.com/kbarker223/Physics-Based-Billiards-Sim"
           />

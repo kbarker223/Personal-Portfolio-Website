@@ -1,3 +1,5 @@
+"use client";
+
 import Layout from '@/components/Layout';
 import ProjectCard from '@/components/ProjectCard';
 import { FiGithub } from 'react-icons/fi';
@@ -5,8 +7,6 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import CertificationCard from '@/components/CertificationCard';
 import Image from 'next/image';
 import { useState } from 'react';
-
-"use client";
 
 export default function Home() {
   const [showAll, setShowAll] = useState(false);

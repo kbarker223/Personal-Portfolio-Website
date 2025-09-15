@@ -48,18 +48,25 @@ export default function Home() {
             github="https://github.com/LucasC212/Message-Decryption-and-TSP-with-Simulated-Annealing"
           />
           <ProjectCard
-            title="2025 March Madness Forecasting"
-            description="Developed a solution to Kaggle's March Madness Machine Learning Mania to forecast both mens and womens NCAA tournament game outcomes.
-            Using historical game data, seeding information, strength of schedules, and team statistics. Implemented a goto conversion solution (https://www.kaggle.com/code/kaito510/goto-conversion-winning-solution) in order to convert american betting odds to statistical probabilities for predicting outcomes."
-            tech={['Python', 'Data Analysis', 'Kaggle', 'Pandas', 'Go to Conversion']}
-            link="https://www.kaggle.com/competitions/march-machine-learning-mania-2025/overview"
-            linkLabel="Kaggle Competition"
-            github="https://github.com/kbarker223/2025-March-Madness/tree/main"
+            title="NeurIPS Ariel Data Challenge 2025"
+            description=""
+            tech={['Python', 'Machine Learning', 'Data Analysis', 'Ensemble', 'GPR', 'XGBoost', 'Data Cleaning', 'Kaggle', 'Pandas']}
+            link=""
+            linkLabel="Kaggle Notebook"
           />
           
           {/* Toggleable Projects */}
           {showAll && (
             <>
+              <ProjectCard
+                title="2025 March Madness Forecasting"
+                description="Developed a solution to Kaggle's March Madness Machine Learning Mania to forecast both mens and womens NCAA tournament game outcomes.
+                Using historical game data, seeding information, strength of schedules, and team statistics. Implemented a goto conversion solution (https://www.kaggle.com/code/kaito510/goto-conversion-winning-solution) in order to convert american betting odds to statistical probabilities for predicting outcomes."
+                tech={['Python', 'Data Analysis', 'Kaggle', 'Pandas', 'Go to Conversion']}
+                link="https://www.kaggle.com/competitions/march-machine-learning-mania-2025/overview"
+                linkLabel="Kaggle Competition"
+                github="https://github.com/kbarker223/2025-March-Madness/tree/main"
+              />
               <ProjectCard
                 title="Predicting NBA stats with Machine Learning"
                 description="Implemented a machine learning model using scikit-learn to predict NBA player rebounds for upcoming games. 

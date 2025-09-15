@@ -34,6 +34,19 @@ export default function Home() {
         <h2 className="text-3xl font-semibold text-center mb-8">Projects</h2>
         <div className="grid gap-8 max-w-4xl mx-auto">
           <ProjectCard
+            title="NeurIPS Ariel Data Challenge 2025"
+            description="Developed ensemble machine learning models combining Ridge regression and Gaussian Process Regression to extract 
+            exoplanet atmospheric signals from noisy spectral focal plane images for the European Space Agency's upcoming Ariel mission. 
+            Successfully predicted atmospheric compositions across 283 wavelength channels from simulated space telescope observations, 
+            achieving a Gaussian Log-Likelihood score of 0.204 (placed 554). The project required processing and cleaning over 14,000 messy telescope image files 
+            representing 1,100 exoplanets across over 200 GB of data, involving advanced signal processing, uncertainty 
+            quantification, and instrumental noise reduction techniques critical for exoplanet characterization.
+"
+            tech={['Python', 'Machine Learning', 'Data Analysis', 'Ensemble', 'GPR', 'XGBoost', 'Data Cleaning', 'Kaggle', 'Pandas']}
+            link=""
+            linkLabel="Kaggle Notebook"
+          />
+          <ProjectCard
             title="Personal Website"
             description="You are here right now! Designed and developed a fully responsive portfolio site using Next.js with the App Router, Tailwind CSS, and TypeScript. Implemented scroll-based animations, optimized images with Next.js' native tools, and deployed via Vercel."
             tech={['HTML', 'Tailwind CSS', 'GitHub', 'Vercel', 'Next.js', 'TypeScript']}
@@ -46,13 +59,6 @@ export default function Home() {
             link="/160B_Final_Project.pdf"
             linkLabel="View PDF"
             github="https://github.com/LucasC212/Message-Decryption-and-TSP-with-Simulated-Annealing"
-          />
-          <ProjectCard
-            title="NeurIPS Ariel Data Challenge 2025"
-            description=""
-            tech={['Python', 'Machine Learning', 'Data Analysis', 'Ensemble', 'GPR', 'XGBoost', 'Data Cleaning', 'Kaggle', 'Pandas']}
-            link=""
-            linkLabel="Kaggle Notebook"
           />
           
           {/* Toggleable Projects */}
@@ -108,6 +114,18 @@ export default function Home() {
       <h2 className="text-3xl font-semibold text-center mb-8">Certifications</h2>
       <div className="border border-gray-300 rounded-md p-5 bg-white">
         <CertificationCard
+          title="JP Morgan Chase Software Engineering "
+          issuer="Forage · JP Morgan Chase"
+          date="September 2025"
+          description="Built a complete financial transaction processing system using Spring Boot that handles real-time message processing through Apache Kafka. 
+          Started with a basic project scaffold and implemented the full transaction pipeline from Kafka message consumption to database persistence and 
+          REST API exposure. The system processes financial transactions asynchronously, validates user balances, integrates with external incentive APIs, 
+          and maintains transaction records while exposing balance query endpoints for real-time account information."
+          certLinks={[
+            { label: "View Certificate", url: "/JPMC SWE Cert.pdf"},
+          ]}
+        />
+        <CertificationCard
           title="Kaggle Learn"
           issuer="Kaggle"
           date="July 2025"
@@ -127,7 +145,7 @@ export default function Home() {
           title="JP Morgan Chase Quantitative Analysis "
           issuer="Forage · JP Morgan Chase"
           date="April 2025"
-          description="A hands-on 4-task job simulation focused on applying quantitative models to financial data, analyzing interest rate risk, and presenting data-driven insights to support trading decisions."
+          description="A hands-on 4-task job simulation focused on applying quantitative models to financial data, analyzing interest rate risk, and presenting data backed insights to support trading decisions."
           certLinks={[
             { label: "View Certificate", url: "/JPM QA Certificate.pdf"},
           ]}

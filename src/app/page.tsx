@@ -35,14 +35,14 @@ export default function Home() {
         <div className="grid gap-8 max-w-4xl mx-auto">
           <ProjectCard
             title="NeurIPS Ariel Data Challenge 2025"
-            description="Developed ensemble machine learning models combining Ridge regression and Gaussian Process Regression to extract 
+            description="Developed ensemble machine learning models combining XGBoost and Gaussian Process Regression to extract 
             exoplanet atmospheric signals from noisy spectral focal plane images for the European Space Agency's upcoming Ariel mission. 
             Successfully predicted atmospheric compositions across 283 wavelength channels from simulated space telescope observations, 
             achieving a Gaussian Log-Likelihood score of 0.204 (placed 554). The project required processing and cleaning over 14,000 messy telescope image files 
             representing 1,100 exoplanets across over 200 GB of data, involving advanced signal processing, uncertainty 
             quantification, and instrumental noise reduction techniques critical for exoplanet characterization.
 "
-            tech={['Python', 'Machine Learning', 'Data Analysis', 'Ensemble', 'GPR', 'XGBoost', 'Data Cleaning', 'Kaggle', 'Pandas']}
+            tech={['Python', 'Machine Learning', 'Data Analysis', 'Ensemble', 'GPR', 'XGBoost', 'Data Cleaning', 'Kaggle', 'Pandas', 'Numpy']}
             link=""
             linkLabel="Kaggle Notebook"
           />
@@ -194,7 +194,7 @@ export default function Home() {
         </p>
         <p className="text-center mt-6">
           <a
-            href="/Barker_Resume_Aug25_D.pdf"
+            href="/Barker_Resume_Sept25.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 underline hover:text-blue-800 transition"

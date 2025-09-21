@@ -47,10 +47,14 @@ export default function Home() {
             linkLabel="Kaggle Notebook"
           />
           <ProjectCard
-            title="Personal Website"
-            description="You are here right now! Designed and developed a fully responsive portfolio site using Next.js with the App Router, Tailwind CSS, and TypeScript. Implemented scroll-based animations, optimized images with Next.js' native tools, and deployed via Vercel."
-            tech={['HTML', 'Tailwind CSS', 'GitHub', 'Vercel', 'Next.js', 'TypeScript']}
-            github="https://github.com/kbarker223/Personal-Portfolio-Website"
+              title="Machine Learning for Prediction NBA Performance"
+              description="Built a machine learning pipeline to predict NBA player rebounds using real-time season data from the NBA API. 
+              Engineered features based on recent performance trends and opponent matchups, then trained models including Random Forest and 
+              XGBoost regressors to forecast player outcomes. Integrated SHAP (SHapley Additive exPlanations) for model interpretability, 
+              significantly improving prediction accuracy. Evaluated performance using MAE and tracked results against other predictions (major sportsbooks, Prizepicks, etc.)
+              and real game outcomes to gain insight into model accuracy."
+              tech={['Python', 'Machine Learning', 'XGBoost', 'SHAP', 'Linear Regression', 'Microsoft Excel']}
+              github="https://github.com/kbarker223/Predicting-NBA-Stats-with-Machine-Learning"
           />
           <ProjectCard
             title="Message Decryption using MCMC and Simulated Annealing"
@@ -65,6 +69,12 @@ export default function Home() {
           {showAll && (
             <>
               <ProjectCard
+                title="Personal Website"
+                description="You are here right now! Designed and developed a fully responsive portfolio site using Next.js with the App Router, Tailwind CSS, and TypeScript. Implemented scroll-based animations, optimized images with Next.js' native tools, and deployed via Vercel."
+                tech={['HTML', 'Tailwind CSS', 'GitHub', 'Vercel', 'Next.js', 'TypeScript']}
+                github="https://github.com/kbarker223/Personal-Portfolio-Website"
+              />
+              <ProjectCard
                 title="2025 March Madness Forecasting"
                 description="Developed a solution to Kaggle's March Madness Machine Learning Mania to forecast both mens and womens NCAA tournament game outcomes.
                 Using historical game data, seeding information, strength of schedules, and team statistics. Implemented a goto conversion solution (https://www.kaggle.com/code/kaito510/goto-conversion-winning-solution) in order to convert american betting odds to statistical probabilities for predicting outcomes."
@@ -72,16 +82,6 @@ export default function Home() {
                 link="https://www.kaggle.com/competitions/march-machine-learning-mania-2025/overview"
                 linkLabel="Kaggle Competition"
                 github="https://github.com/kbarker223/2025-March-Madness/tree/main"
-              />
-              <ProjectCard
-                title="Predicting NBA stats with Machine Learning"
-                description="Implemented a machine learning model using scikit-learn to predict NBA player rebounds for upcoming games. 
-                Collected and processed real-time season data using NBA API, 
-                engineered features based on recent performance trends and opponent matchups, and trained a Random Forest Regressor to 
-                model player outcomes. Evaluated model accuracy using MAE and tracked results in Excel to explore sports 
-                analytics and discover trends."
-                tech={['Python', 'Machine Learning', 'Linear Regression', 'Random Forest', 'Microsoft Excel']}
-                github="https://github.com/kbarker223/Predicting-NBA-Stats-with-Machine-Learning"
               />
               <ProjectCard
                 title="Physics Based Billiard Simulation"

@@ -38,7 +38,7 @@ export default function Home() {
             description="Developed ensemble machine learning models combining XGBoost, Ridge, and Gaussian Process Regression to extract 
             exoplanet atmospheric signals from noisy spectral focal plane images for the European Space Agency's upcoming Ariel mission. 
             Successfully predicted atmospheric compositions across 283 wavelength channels from simulated space telescope observations, 
-            achieving a Gaussian Log-Likelihood score of 0.331. The project required processing and cleaning over 14,000 messy telescope image files 
+            achieving a Gaussian Log-Likelihood score of 0.311. The project required processing and cleaning over 14,000 messy telescope image files 
             representing 1,100 exoplanets across over 200 GB of data, involving advanced signal processing, uncertainty 
             quantification, and instrumental noise reduction techniques critical for exoplanet characterization.
 "

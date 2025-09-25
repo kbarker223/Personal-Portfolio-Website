@@ -35,7 +35,7 @@ export default function Home() {
         <div className="grid gap-8 max-w-4xl mx-auto">
           <ProjectCard
             title="NeurIPS Ariel Data Challenge 2025"
-            description="Developed ensemble machine learning models combining XGBoost and Gaussian Process Regression to extract 
+            description="Developed ensemble machine learning models combining XGBoost, Ridge, and Gaussian Process Regression to extract 
             exoplanet atmospheric signals from noisy spectral focal plane images for the European Space Agency's upcoming Ariel mission. 
             Successfully predicted atmospheric compositions across 283 wavelength channels from simulated space telescope observations, 
             achieving a Gaussian Log-Likelihood score of 0.331. The project required processing and cleaning over 14,000 messy telescope image files 
@@ -43,7 +43,7 @@ export default function Home() {
             quantification, and instrumental noise reduction techniques critical for exoplanet characterization.
 "
             tech={['Python', 'Machine Learning', 'Data Analysis', 'Ensemble', 'GPR', 'XGBoost', 'Data Cleaning', 'Kaggle', 'Pandas', 'Numpy']}
-            link=""
+            link="https://www.kaggle.com/code/kaibarker123/kb123-ariel-data-challenge-2025"
             linkLabel="Kaggle Notebook"
           />
           <ProjectCard

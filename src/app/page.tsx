@@ -75,6 +75,21 @@ export default function Home() {
                 github="https://github.com/kbarker223/Personal-Portfolio-Website"
               />
               <ProjectCard
+                title="Factorial Design for Paperclip Placements on Paper Airplane Flight Distance"
+                description="By examining the impact of weight distribution on the flight distance of paper airplanes, this experiment
+                provides a simplified but intuitive look into key principles of aerodynamics and physics that govern flight.
+                Despite the differences between paper airplanes and real aircraft, studies have shown that factors such
+                as weight distribution or overall airplane weight can play a role in the efficiency of both paper airplanes
+                as well as real aircraft. With further studies finding weight to be a major contributor to aircraft carbon
+                emissions, we can attempt to mitigate these consequences by optimizing aircraft design. Building on this,
+                our experiment will dive into the fundamental concept of how different weight distributions affect the flight
+                distance of paper airplanes"
+                tech={['R', 'Research', 'GitHub', 'Excel']}
+                link = "/Paper Airplane Research Paper"
+                linkLabel="View PDF"
+                github="https://github.com/kbarker223/Paper-Airplane-Factorial-Design-Research-Paper"
+              />
+              <ProjectCard
                 title="2025 March Madness Forecasting"
                 description="Developed a solution to Kaggle's March Madness Machine Learning Mania to forecast both mens and womens NCAA tournament game outcomes.
                 Using historical game data, seeding information, strength of schedules, and team statistics. Implemented a goto conversion solution (https://www.kaggle.com/code/kaito510/goto-conversion-winning-solution) in order to convert american betting odds to statistical probabilities for predicting outcomes."

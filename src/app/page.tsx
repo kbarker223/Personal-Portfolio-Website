@@ -85,7 +85,7 @@ export default function Home() {
                 our experiment will dive into the fundamental concept of how different weight distributions affect the flight
                 distance of paper airplanes"
                 tech={['R', 'Research', 'GitHub', 'Excel']}
-                link = "/Paper Airplane Research Paper"
+                link = "/Paper Airplane Research Paper.pdf"
                 linkLabel="View PDF"
                 github="https://github.com/kbarker223/Paper-Airplane-Factorial-Design-Research-Paper"
               />

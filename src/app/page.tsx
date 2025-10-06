@@ -198,11 +198,11 @@ export default function Home() {
           <br></br>
           I enjoy working on projects that blend data analytics, design, and real-world applications. Whether I am in the classroom, working on a personal 
           project, or collaborating on research, I am always looking for new ways to apply my learning.
-          I&apos;m esepcially interested in roles that involve teamwork and communication, skills I&apos;ve developed through
-          research work and leadership experience as an assistant store manager, where I coordinated team efforts and found solutions to customer&apos;s problems.
+          I&apos;m especially interested in roles that involve teamwork and communication. I&apos;ve developed these skills through
+          research work and leadership experience as an assistant store manager, where I coordinated team efforts and helped customers find solutions.
           <br></br>
           <br></br>
-          In my free time, you can catch me climbing, hiking, or on the basketball court. I&apos;m currently seeking internship opportunities, jobs, or research positions that
+          In my free time, you can catch me camping, hiking, or on the basketball court. I&apos;m currently seeking internship opportunities, jobs, or research positions that
           will challenge me to grow both technically and creatively. Feel free to check out my resume below, and don&apos;t hesitate to reach out, I would love to connect!  
           
         </p>

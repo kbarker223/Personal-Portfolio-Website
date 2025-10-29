@@ -15,7 +15,7 @@ export default function Home() {
       {/* Headshot Section */}
       <section id="home" className="min-h-screen flex flex-col justify-center items-center px-4">
         <Image
-          src="/kai-headshot.JPG"
+          src="/headshot_cyc1.JPG"
           alt="Kai's headshot"
           width={336}
           height={336}

@@ -208,7 +208,7 @@ export default function Home() {
         </p>
         <p className="text-center mt-6">
           <a
-            href="/Resume_Website_Jan.pdf"
+            href="/Barker_Resume_Feb26.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 underline hover:text-blue-800 transition"

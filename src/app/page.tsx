@@ -192,18 +192,25 @@ export default function Home() {
       <section id="about" className="py-16 px-4" data-aos="fade-up" data-aos-delay="200">
         <h2 className="text-3xl font-semibold text-center mb-8">About Me</h2>
         <p className="max-w-2xl mx-auto text-center text-gray-600">
-          I&apos;m Kai Barker, a fourth-year student at UC Santa Barbara pursuing a B.S in Statistics and Data Science. 
-          I&apos;m passionate about solving complex problems and building tools that make data more accessible and actionable. 
+          I&apos;m Kai Barker, a senior at UC Santa Barbara finishing a B.S. in
+          Statistics and Data Science (GPA: 3.86), graduating June 2026.
           <br></br>
           <br></br>
-          I enjoy working on projects that blend data analytics, design, and real-world applications. Whether I am in the classroom, working on a personal 
-          project, or collaborating on research, I am always looking for new ways to apply my learning.
-          I&apos;m especially interested in roles that involve teamwork and communication. I&apos;ve developed these skills through
-          research work and leadership experience as an assistant store manager, where I coordinated team efforts and helped customers find solutions.
+          I love to work with data and apply it to research and projects real-world impact.
+          Some of my most recent projects have involved analyzing Senate trading patterns for statistical
+          significance, leading consulting engagements for small business clients,
+          or building ML models to predict exoplanet atmospheres. I like problems
+          that are meaningful and applied, and require both technical depth and clear
+          communication to solve.
           <br></br>
           <br></br>
-          In my free time, you can catch me camping, hiking, or on the basketball court. I&apos;m currently seeking internship opportunities, jobs, or research positions that
-          will challenge me to grow both technically and creatively. Feel free to check out my resume below, and don&apos;t hesitate to reach out, I would love to connect!  
+          Outside of work, you&apos;ll find me hiking, backpacking, playing basketball,
+          or planning the next camping trip. I&apos;m currently seeking full-time roles
+          in data science, analytics, or consulting where I can contribute
+          immediately and keep growing.
+          <br></br>
+          <br></br>
+          Feel free to explore my work below, and don&apos;t hesitate to reach out!
           
         </p>
         <p className="text-center mt-6">

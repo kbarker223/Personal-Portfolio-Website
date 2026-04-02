@@ -201,7 +201,7 @@ export default function Home() {
         <h2 className="text-3xl font-semibold text-center mb-8">About Me</h2>
         <p className="max-w-2xl mx-auto text-center text-gray-600">
           I&apos;m Kai Barker, a senior at UC Santa Barbara finishing a B.S. in
-          Statistics and Data Science (GPA: 3.86), graduating June 2026.
+          Statistics and Data Science (GPA: 3.90), graduating June 2026.
           <br></br>
           <br></br>
           I love to work with data and apply it to research and projects real-world impact.

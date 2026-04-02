@@ -129,6 +129,14 @@ export default function Home() {
       <h2 className="text-3xl font-semibold text-center mb-8">Certifications</h2>
       <div className="border border-gray-300 rounded-md p-5 bg-white">
         <CertificationCard
+          title="HackerRank SQL (ADVANCED) "
+          issuer="HackerRank"
+          date="April 2026"
+          certLinks={[
+            { label: "View Certificate", url: "/sql_advanced_certificate.pdf"},
+          ]}
+        />
+        <CertificationCard
           title="JP Morgan Chase Software Engineering "
           issuer="Forage · JP Morgan Chase"
           date="September 2025"

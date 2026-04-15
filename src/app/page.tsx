@@ -34,6 +34,20 @@ export default function Home() {
         <h2 className="text-3xl font-semibold text-center mb-8">Projects</h2>
         <div className="grid gap-8 max-w-4xl mx-auto">
           <ProjectCard
+            title="Congressional Stock Trading Research"
+            description="This two-part research project investigates whether U.S. congressional stock trades contain exploitable informational signals. 
+            The first paper analyzes 70,000+ STOCK Act disclosures to test whether members of Congress beat the market, finding that while average 
+            returns are insignificant, a persistent group of outlier members generate exceptional gains. The second paper builds on this by 
+            constructing a weighted alpha signal from CAPM-adjusted abnormal returns, cleaning the covariance matrix using Random Matrix Theory 
+            eigenvalue decomposition, and optimizing a mean-variance portfolio. The resulting strategy approximately tracks the S&P 500 with 
+            statistically significant alpha among top-performing members and coordinated purchases.
+"
+            tech={['Python', 'Research', 'Data Analysis', 'Finance', 'CAPM', 'RMT', 'Covariance Matrix', 'Visualizations']}
+            link="Congressional_Portfolio_Construction.pdf"
+            linkLabel="View PDF"
+            github="https://github.com/kbarker223/congressional-research"
+          />
+          <ProjectCard
             title="NeurIPS Ariel Data Challenge 2025"
             description="Developed ensemble machine learning models combining XGBoost, Ridge, and Gaussian Process Regression to extract 
             exoplanet atmospheric signals from noisy spectral focal plane images for the European Space Agency's upcoming Ariel mission. 
@@ -88,15 +102,6 @@ export default function Home() {
                 link = "/Paper Airplane Research Paper.pdf"
                 linkLabel="View PDF"
                 github="https://github.com/kbarker223/Paper-Airplane-Factorial-Design-Research-Paper"
-              />
-              <ProjectCard
-                title="2025 March Madness Forecasting"
-                description="Developed a solution to Kaggle's March Madness Machine Learning Mania to forecast both mens and womens NCAA tournament game outcomes.
-                Using historical game data, seeding information, strength of schedules, and team statistics. Implemented a goto conversion solution (https://www.kaggle.com/code/kaito510/goto-conversion-winning-solution) in order to convert american betting odds to statistical probabilities for predicting outcomes."
-                tech={['Python', 'Data Analysis', 'Kaggle', 'Pandas', 'Go to Conversion']}
-                link="https://www.kaggle.com/competitions/march-machine-learning-mania-2025/overview"
-                linkLabel="Kaggle Competition"
-                github="https://github.com/kbarker223/2025-March-Madness/tree/main"
               />
               <ProjectCard
                 title="Physics Based Billiard Simulation"

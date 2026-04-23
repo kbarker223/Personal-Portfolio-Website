@@ -77,7 +77,7 @@ export default function Home() {
             kelp blade growth and surface area. The research focused on isolating the metabolic 
             costs of ocean acidification in temperate marine ecosystems."
             tech={['R', 'ggplot2', 'Statistical Modeling', 'Hypothesis Testing', 'Regression Analysis']}
-            link="Ocean_Warming_Acidification_Kelp_Analysis.pdf"
+            link="Ocean_Warming_Acidification_Kelp_Analysis.html"
             linkLabel="View PDF"
             github="https://github.com/kbarker223/OceanWarmingKelp/tree/main"
           />

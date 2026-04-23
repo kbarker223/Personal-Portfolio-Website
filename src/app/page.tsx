@@ -44,7 +44,7 @@ export default function Home() {
 "
             tech={['Python', 'Research', 'Data Analysis', 'Finance', 'CAPM', 'RMT', 'Covariance Matrix', 'Visualizations']}
             link="Congressional_Portfolio_Construction.pdf"
-            linkLabel="View PDF"
+            linkLabel="View Paper"
             github="https://github.com/kbarker223/congressional-research"
           />
           <ProjectCard
@@ -65,7 +65,7 @@ export default function Home() {
             description="Using a Metropolis-Hastings message decryption algorithm, we researched and documented the algorithms functionality and underlying mechanics, and optimized the decoder using simulated annealing. Borrowing simulated annealing from the Traveling Salesman Problem, a similar optimization problem, we updated the Metropolis-Hastings algorithm and discussed its impact on message decryption."
             tech={['Python', 'Latex', 'Simulated Annealing', 'Markov Chain Monte Carlo']}
             link="Markov_Chain_Monte_Carlo_and_TSP_Barker.pdf"
-            linkLabel="View PDF"
+            linkLabel="View Paper"
             github="https://github.com/kbarker223/MCMC"
           />
           <ProjectCard
@@ -78,7 +78,7 @@ export default function Home() {
             costs of ocean acidification in temperate marine ecosystems."
             tech={['R', 'ggplot2', 'Statistical Modeling', 'Hypothesis Testing', 'Regression Analysis']}
             link="Ocean_Warming_Acidification_Kelp_Analysis.html"
-            linkLabel="View PDF"
+            linkLabel="View Paper"
             github="https://github.com/kbarker223/OceanWarmingKelp/tree/main"
           />
           <ProjectCard
@@ -113,7 +113,7 @@ export default function Home() {
                 distance of paper airplanes"
                 tech={['R', 'Research', 'GitHub', 'Excel']}
                 link = "/Paper Airplane Research Paper.pdf"
-                linkLabel="View PDF"
+                linkLabel="View Paper"
                 github="https://github.com/kbarker223/Paper-Airplane-Factorial-Design-Research-Paper"
               />
               <ProjectCard

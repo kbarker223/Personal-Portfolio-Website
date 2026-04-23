@@ -61,6 +61,27 @@ export default function Home() {
             linkLabel="Kaggle Notebook"
           />
           <ProjectCard
+            title="Message Decryption using MCMC and Simulated Annealing"
+            description="Using a Metropolis-Hastings message decryption algorithm, we researched and documented the algorithms functionality and underlying mechanics, and optimized the decoder using simulated annealing. Borrowing simulated annealing from the Traveling Salesman Problem, a similar optimization problem, we updated the Metropolis-Hastings algorithm and discussed its impact on message decryption."
+            tech={['Python', 'Latex', 'Simulated Annealing', 'Markov Chain Monte Carlo']}
+            link="Markov_Chain_Monte_Carlo_and_TSP_Barker.pdf"
+            linkLabel="View PDF"
+            github="https://github.com/kbarker223/MCMC"
+          />
+          <ProjectCard
+            title="Ocean Warming and Acidification - Kelp Growth Analysis"
+            description="Conducted a multivariate statistical analysis to determine the impact of 
+            climate change stressors on Macrocystis pyrifera (Giant Kelp). Using a factorial 
+            experimental design, I performed multiple linear regressions and significance 
+            testing to quantify how increased temperature and carbon dioxide levels interact to affect 
+            kelp blade growth and surface area. The research focused on isolating the metabolic 
+            costs of ocean acidification in temperate marine ecosystems."
+            tech={['R', 'ggplot2', 'Statistical Modeling', 'Hypothesis Testing', 'Regression Analysis']}
+            link="Ocean_Warming_Acidification_Kelp_Analysis.pdf"
+            linkLabel="View PDF"
+            github="https://github.com/kbarker223/OceanWarmingKelp/tree/main"
+          />
+          <ProjectCard
               title="Machine Learning for Prediction NBA Performance"
               description="Built a machine learning pipeline to predict NBA player rebounds using real-time season data from the NBA API. 
               Engineered features based on recent performance trends and opponent matchups, then trained models including Random Forest and 
@@ -69,14 +90,6 @@ export default function Home() {
               and real game outcomes to gain insight into model accuracy."
               tech={['Python', 'Machine Learning', 'XGBoost', 'SHAP', 'Linear Regression', 'Microsoft Excel']}
               github="https://github.com/kbarker223/Predicting-NBA-Stats-with-Machine-Learning"
-          />
-          <ProjectCard
-            title="Message Decryption using MCMC and Simulated Annealing"
-            description="Using a Metropolis-Hastings message decryption algorithm, we researched and documented the algorithms functionality and underlying mechanics, and optimized the decoder using simulated annealing. Borrowing simulated annealing from the Traveling Salesman Problem, a similar optimization problem, we updated the Metropolis-Hastings algorithm and discussed its impact on message decryption."
-            tech={['Python', 'Latex', 'Simulated Annealing', 'Markov Chain Monte Carlo']}
-            link="MCMC_and_Simulated_Annealing.pdf"
-            linkLabel="View PDF"
-            github="https://github.com/LucasC212/Message-Decryption-and-TSP-with-Simulated-Annealing"
           />
           
           {/* Toggleable Projects */}

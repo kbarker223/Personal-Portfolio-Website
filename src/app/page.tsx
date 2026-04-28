@@ -218,26 +218,19 @@ export default function Home() {
       <section id="about" className="py-16 px-4" data-aos="fade-up" data-aos-delay="200">
         <h2 className="text-3xl font-semibold text-center mb-8">About Me</h2>
         <p className="max-w-2xl mx-auto text-center text-gray-600">
-          I&apos;m Kai Barker, a senior at UC Santa Barbara finishing a B.S. in
-          Statistics and Data Science (GPA: 3.90), graduating June 2026.
+          I&apos;m Kai Barker. I love working with data that has meaningful, real-world impacts.
+          Some of my most recent projects have involved analyzing congressional trading patterns 
+          to build an optimized stock portfolio and understand informational advantages, consulting for small businesses, 
+          and building ML models to predict exoplanet atmospheres.
+          I&apos;m drawn to applied problems that require both technical depth and clear communication to solve.
           <br></br>
           <br></br>
-          I love to work with data and apply it to research and projects real-world impact.
-          Some of my most recent projects have involved analyzing Senate trading patterns for statistical
-          significance, leading consulting engagements for small business clients,
-          or building ML models to predict exoplanet atmospheres. I like problems
-          that are meaningful and applied, and require both technical depth and clear
-          communication to solve.
+          I&apos;m currently seeking full-time roles in data science, analytics, or consulting where I can 
+          contribute immediately and keep growing. Outside of work, you&apos;ll find me hiking, backpacking, 
+          playing basketball, or planning my next camping trip. 
           <br></br>
           <br></br>
-          Outside of work, you&apos;ll find me hiking, backpacking, playing basketball,
-          or planning the next camping trip. I&apos;m currently seeking full-time roles
-          in data science, analytics, or consulting where I can contribute
-          immediately and keep growing.
-          <br></br>
-          <br></br>
-          Feel free to explore my work below, and don&apos;t hesitate to reach out!
-          
+          Feel free to explore my work or my resume below, and don&apos;t hesitate to reach out!
         </p>
         <p className="text-center mt-6">
           <a

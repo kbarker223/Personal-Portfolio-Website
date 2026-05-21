@@ -43,7 +43,7 @@ export default function Home() {
             statistically significant alpha among top-performing members and coordinated purchases.
 "
             tech={['Python', 'Research', 'Data Analysis', 'Finance', 'CAPM', 'RMT', 'Covariance Matrix', 'Visualizations']}
-            link="Congressional_Portfolio_Construction.pdf"
+            link="Barker_Ichiba_Congressional_Portfolio_Construction_2025.pdf"
             linkLabel="View Paper"
             github="https://github.com/kbarker223/congressional-research"
           />
@@ -234,7 +234,7 @@ export default function Home() {
         </p>
         <p className="text-center mt-6">
           <a
-            href="/Barker_Resume_April26.pdf"
+            href="/Barker_Resume_May2026.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 underline hover:text-blue-800 transition"

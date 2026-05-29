@@ -198,7 +198,7 @@ export default function Home() {
       <section className="relative my-16">
       <div className="absolute inset-0 opacity-20">
         <Image
-          src="/cyc_engagement_team.jpeg"
+          src="/cyc_engagement_team.jpg"
           alt="Kai collaborating with others"
           layout="fill"
           objectFit="cover"

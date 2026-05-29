@@ -202,6 +202,7 @@ export default function Home() {
           alt="Kai collaborating with others"
           layout="fill"
           objectFit="cover"
+          objectPosition="top" // <-- Centers the top of the image (saves heads!)
           className="rounded-lg"
           priority
         />

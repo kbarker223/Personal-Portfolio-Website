@@ -43,9 +43,20 @@ export default function Home() {
             statistically significant alpha among top-performing members and coordinated purchases.
 "
             tech={['Python', 'Research', 'Data Analysis', 'Finance', 'CAPM', 'RMT', 'Covariance Matrix', 'Visualizations']}
-            link="Barker_Ichiba_Congressional_Portfolio_Construction_2025.pdf"
+            link="Barker_Ichiba_Congressional_Portfolio_Construction_2026.pdf"
             linkLabel="View Paper"
             github="https://github.com/kbarker223/congressional-research"
+          />
+          <ProjectCard
+            title="Trailforge"
+            description="Built a personalized hiking trail recommendation app in 24 hours at a hackathon. Users connect their Strava account via OAuth and the app analyzes 
+            their activity history (runs, hikes, elevation) to match them with trails suited to their fitness level. Integrated the Gemini LLM API to generate recommendations 
+            and Google SerpAPI to reliably surface AllTrails links after discovering LLMs hallucinate precise URLs."
+            tech={['Python', 'Gemini LLM API', 'OAuth 2.0', 'Strava API', 'Google SerpAPI', 'HTML']}            
+            link="https://devpost.com/software/traiforge"
+            linkLabel="Devpost"
+            secondLink="https://trailforge.onrender.com/"
+            secondLinkLabel="Visit Website"
           />
           <ProjectCard
             title="NeurIPS Ariel Data Challenge 2025"

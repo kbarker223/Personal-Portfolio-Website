@@ -4,10 +4,12 @@ type ProjectCardProps = {
   tech: string[];
   link?: string;
   linkLabel?: string;
+  secondLink?: string;
+  secondLinkLabel?: string;
   github?: string;
 };
 
-export default function ProjectCard({ title, description, tech, link, linkLabel, github }: ProjectCardProps) {
+export default function ProjectCard({ title, description, tech, link, linkLabel, secondLink, secondLinkLabel, github }: ProjectCardProps) {
   return (
     <div className="border rounded-lg p-6 bg-white shadow hover:shadow-md transition">
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
@@ -21,7 +23,10 @@ export default function ProjectCard({ title, description, tech, link, linkLabel,
       </div>
       <div className="flex gap-4 text-blue-600">
         {link && (
-        <a href={link} target="_blank" className="underline text-blue-600">{linkLabel}</a>
+          <a href={link} target="_blank" className="underline text-blue-600">{linkLabel}</a>
+        )}
+        {secondLink && (
+          <a href={secondLink} target="_blank" className="underline text-blue-600">{secondLinkLabel}</a>
         )}
         {github && <a href={github} target="_blank" className="underline">GitHub</a>}
       </div>

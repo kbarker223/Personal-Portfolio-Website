@@ -36,7 +36,7 @@ export default function Home() {
           <ProjectCard
             title="Off-Target Safety Analysis of Zinc Finger Gene Therapies for Angelman Syndrome"
             description="Conducted an off-target safety analysis of zinc finger protein gene therapy candidates targeting SNHG14 for Angelman 
-            syndrome treatment, in collaboration with the Segal Lab at UC Davis. Built an end-to-end computational pipeline on Google Cloud Platform 
+            syndrome treatment, with data provided by the Segal Lab at UC Davis. Built an end-to-end computational pipeline on Google Cloud Platform 
             processing 78,893 genes and 705,000+ disease associations to identify the safest Pareto-optimal treatment candidate using Nearest Shrunken Centroid 
             feature selection, bootstrap stability testing, and evidence-weighted burden scoring."
             tech={['Python', 'Research', 'Machine Learning', 'Apache Spark/PySpark','Google Cloud Platform', 'Google BigQuery', 'Bioinformatics']}

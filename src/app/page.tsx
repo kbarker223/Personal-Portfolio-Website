@@ -47,7 +47,7 @@ export default function Home() {
           <ProjectCard
             title="Congressional Stock Trading Research"
             description="This two-part research project investigates whether U.S. congressional stock trades contain exploitable informational signals. 
-            The first paper analyzes 70,000+ STOCK Act disclosures to test whether members of Congress beat the market, finding that while average 
+            The first paper analyzes 137,000+ STOCK Act disclosures to test whether members of Congress beat the market, finding that while average 
             returns are insignificant, a persistent group of outlier members generate exceptional gains. The second paper builds on this by 
             constructing a weighted alpha signal from CAPM-adjusted abnormal returns, cleaning the covariance matrix using Random Matrix Theory 
             eigenvalue decomposition, and optimizing a mean-variance portfolio. The resulting strategy approximately tracks the S&P 500 with 
